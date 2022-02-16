@@ -187,7 +187,26 @@ section {
 }
 
 .contenedor_tendencias {
-    background-color: rgb(170, 170, 170);
     margin: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
+}
+
+
+.tendencias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name span{
+    font-size: 13px;
+    color: gray;
+    
+}
+
+.img_moon {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
 }
