@@ -1,0 +1,193 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: .5px solid rgb(218, 218, 218);
+}
+
+/* //////////////////////////// */
+
+.twitter__profile {
+    flex: .8;
+}
+
+.twitter__profile ul {
+    list-style: none;
+}
+
+.twitter__profile li {
+    color: black;
+    margin-bottom: 15px;
+    font-weight: 900;
+}
+
+.twitter__profile li:hover {
+    color: cornflowerblue;
+}
+
+.twitter__profile button {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid white;
+    background-color: #269ee6;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+/* ////////////////////////// */
+
+.twitter__main {
+    flex: 2;
+}
+
+.twitter__main__home {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 2px solid #eee;
+    padding: 10px;
+}
+
+.twitter__main__home h2{
+    margin: 0;
+}
+
+.twitter__main__input {
+    display: flex;
+    border-bottom: 10px solid #eaeaea;
+}
+
+.twitter__main__input__place {
+    display: flex;
+    align-items: start;
+    padding: 10px 0px 0px 15px;
+}
+
+.twitter__main__toolbox {
+    padding: 10px 15px 0px 15px;
+    flex: 1;
+}
+
+.twitter__main__input__place img {
+    width: 55px;
+    border-radius: 40px;
+}
+
+.twitter__main__inputText input {
+    border: none;
+    font-weight: bold;
+    color: #4f4c4c;
+    width: 100%;
+    height: 40px;
+}
+
+.twitter__main__input__actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 10px 0px;
+    align-items: center;
+    color: gray;
+}
+
+.twitter__main__input__icons {
+    margin-left: 5px;
+}
+
+.twitter__main__input__icons i {
+    margin-right: 5px;
+    color: rgb(47, 189, 255);
+}
+
+.twitter__main__input__submit button{
+    border: none;
+    background-color: #269ee6;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bolder;
+}
+
+.twitter__main__inputText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twitter_user_post {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.user_states {
+    font-size: 14px;
+}
+
+.user_states span {
+    font-size: 13px;
+    color: gray;
+}
+
+.user_name {
+    display: inline;
+    margin: 0;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.user_posts img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.twitter__trends {
+    flex: 1;
+}
+
+.tw__search {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.search_button {
+    display: flex;
+    align-items: center;
+    background-color: #cacaca;
+    padding: 10px;
+    color: #666565;
+    border-radius: 20px;
+    flex: .8;
+}
+
+.search_button input {
+    background: none;
+    border: none;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.search_button input:focus-visible {
+    outline: none;
+}
+
+
+
+/* ///////////////////////////////////////////////// */
+
+.tw_trends {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_tendencias {
+    background-color: rgb(170, 170, 170);
+    margin: 10px;
+    border-radius: 15px;
+}

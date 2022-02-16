@@ -1,0 +1,57 @@
+header {
+    background-color: red;
+}
+section {
+    background-color: green;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header {
+    background-color: seagreen;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header1 {
+    background-color: rgba(255, 255, 150, 0.5);
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px rgba(0, 0, 0, .2);
+  
+}
+
+.sub1 {
+    background-color: red;
+}
+
+.sub2 {
+    background-color: royalblue;
+}
+
+.sub3 {
+    background-color: saddlebrown;
+}
+
+#header {
+    background-color: steelblue;
+    height: 150px;
+    width: 150px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px;
+}
+
+footer {
+    background-color: hotpink;
+}
+
+/* mediaQueris */
+
+@media only screen and (max-width: 375px) {
+        section {
+        flex-direction: column;
+    }
+} 
