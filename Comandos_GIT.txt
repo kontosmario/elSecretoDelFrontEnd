@@ -1,0 +1,7 @@
+1- git fetch // Actualizar
+2- git pull // Traer archivos actualizados
+3- git status // revisar el status de archivos modificados
+4- git add . // agregar todos los archivos modificados, antes del commit
+5- git commit -m "Comentario del commit" // juntas los archivos y les das un comentario para el commit
+6- git fetch // Actualizas antes de commitear
+7- git push // Subis tus cambios al repositorio
