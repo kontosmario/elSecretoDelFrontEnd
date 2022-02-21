@@ -1,3 +1,9 @@
+header {
+    border-bottom: 1px solid #e9e9e9;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
 .container {
     display: flex;
     margin: 0px 100px;
@@ -27,4 +33,36 @@ display: flex;
 
 .search_inst {
     justify-content: flex-end;
+}
+
+.search_button {
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    width: 325px;
+    border-radius: 8px;
+    height: 40px;
+    padding: 5px;
+}
+
+.search_button input {
+    background: none;
+    border: none;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.search_button input:focus-visible {
+    outline: none;
+}
+
+.user_inst img {
+    width: 40px;
+    border-radius: 40px;
+}
+
+.logo_inst img {
+    width: 103px;
+    height: 29px;
+    margin-top: 10px;
 }
