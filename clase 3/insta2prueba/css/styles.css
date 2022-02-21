@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    margin: 0px 100px;
+    justify-content: center;
+}
+
+.dflex {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav_inst  {
+justify-content: space-around;
+display: flex;
+}
+
+.menu_principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_principal a {
+    margin-right: 15px;
+}
+
+.search_inst {
+    justify-content: flex-end;
+}
