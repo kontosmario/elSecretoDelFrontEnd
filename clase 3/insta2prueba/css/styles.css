@@ -76,14 +76,16 @@ header {
 
 .profile_name {
     flex: 1;
-    display: flex;
     margin: 12px;
     display: flex;
+    flex-direction: column;
     padding: 0 2px;
 }
 
 .profile_img img {
     border-radius: 100px;
+    height: 170px;
+    width: 170px;
 }
 
 
@@ -93,14 +95,88 @@ header {
     padding: 0 2px;
 }
 
-span {
+.detail_user {
+    margin: 12px;
+    padding: 0 2px; 
+}
+
+.profile_actions span {
     margin: 10px;
     font-size: 20px;
     border: 1px solid grey;
     padding: 3px;
     margin-bottom: auto;
+    border-radius: 10px;
+}
+
+.profile_actions {
+    display: flex;
+}
+
+.user_status {
+    margin: 12px;
+    font-weight: bolder;
+}
+
+.user_status span {
+    margin-right: 10px;
 }
 
 .icon-tabler {
     margin: 6px;
+}
+
+.historias_destacadas {
+    display: flex;
+    flex: 1;
+    border-bottom: 1px solid #d7d6d6;
+}
+
+
+.historias_destacadas ul{
+    display: flex;
+    flex: 1;
+    list-style: none;
+}
+
+.historias_destacadas ul li{
+    margin-right: 30px;
+}
+
+.historias_destacadas ul li img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.column-direction {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+}
+
+.tab_list {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.tab_list a {
+    margin: 10px 25px;
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+}
+
+.post {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.post img {
+    width: 300px;
+    height: 300px;
 }
