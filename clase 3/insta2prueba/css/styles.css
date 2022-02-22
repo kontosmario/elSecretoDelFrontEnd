@@ -6,40 +6,30 @@ header {
 
 .container {
     display: flex;
-    margin: 0px 100px;
-    justify-content: center;
+    margin: 0px 200px;
 }
 
 .dflex {
     display: flex;
-    justify-content: center;
     flex: 1;
-}
-
-.nav_inst  {
-justify-content: space-around;
-display: flex;
 }
 
 .menu_principal {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.menu_principal a {
-    margin-right: 15px;
+    width: 100%;
 }
 
 .search_inst {
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .search_button {
     display: flex;
     align-items: center;
     background-color: #efefef;
-    width: 325px;
+    width: 250px;
     border-radius: 8px;
     height: 40px;
     padding: 5px;
@@ -61,8 +51,28 @@ display: flex;
     border-radius: 40px;
 }
 
+.logo_inst {
+    justify-content: flex-start;
+}
+
 .logo_inst img {
     width: 103px;
     height: 29px;
     margin-top: 10px;
+}
+
+#userInfo {
+    display: flex;
+    flex: 1;
+}
+
+.profile-img {
+    flex: .5;
+    justify-content: center;
+    display: flex;
+}
+
+.profile-name {
+    flex: 1;
+    display: flex;
 }
