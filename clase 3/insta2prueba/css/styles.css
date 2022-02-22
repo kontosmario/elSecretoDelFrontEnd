@@ -64,15 +64,43 @@ header {
 #userInfo {
     display: flex;
     flex: 1;
+    
 }
 
-.profile-img {
+.profile_img {
     flex: .5;
     justify-content: center;
     display: flex;
+    
 }
 
-.profile-name {
+.profile_name {
     flex: 1;
     display: flex;
+    margin: 12px;
+    display: flex;
+    padding: 0 2px;
+}
+
+.profile_img img {
+    border-radius: 100px;
+}
+
+
+.profile_name h2  {
+    margin: 12px;
+    display: flex;
+    padding: 0 2px;
+}
+
+span {
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid grey;
+    padding: 3px;
+    margin-bottom: auto;
+}
+
+.icon-tabler {
+    margin: 6px;
 }
