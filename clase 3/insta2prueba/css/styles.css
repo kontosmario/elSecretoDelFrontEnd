@@ -177,6 +177,20 @@ header {
 }
 
 .post img {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 310px;
 }
+
+.p-1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: grey;
+    margin-right: 400px;
+    margin-left: 400px;
+}
+
+.p-2 {
+    text-align: center;
+    color: grey;
+}
+
