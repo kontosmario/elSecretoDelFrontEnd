@@ -208,3 +208,14 @@ header {
  display: block;
 }
 
+.envio, .cuota {
+  color: #00a650;
+  font-weight: bold;
+}
+
+
+.barra-container {
+  background:-webkit-gradient(linear,left top,right top,color-stop(55%,#a90f90),to(#0c1a51));
+  color: #fff;
+
+}
