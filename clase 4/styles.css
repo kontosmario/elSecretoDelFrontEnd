@@ -217,5 +217,7 @@ header {
 .barra-container {
   background:-webkit-gradient(linear,left top,right top,color-stop(55%,#a90f90),to(#0c1a51));
   color: #fff;
-
+  display: flex;
+  justify-content: space-evenly;
+  
 }
