@@ -41,6 +41,7 @@ section {
     border-radius: 20px;
     color: white;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 /* ////////////////////////// */
@@ -114,6 +115,7 @@ section {
     border-radius: 15px;
     color: white;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .twitter__main__inputText {

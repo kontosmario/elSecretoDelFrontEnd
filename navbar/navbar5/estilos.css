@@ -1,0 +1,19 @@
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input, label {
+    margin: .4rem 0;
+    
+}
+
+.btn{
+    border-radius: 10px;
+    color:white;
+    text-transform: uppercase;
+    background-color: blueviolet;
+}
+
+.btn:hover{
+    color: red;
+}

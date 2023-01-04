@@ -128,8 +128,10 @@ header {
 
 .historias_destacadas {
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     border-bottom: 1px solid #d7d6d6;
+    margin-left: 40px;
+    
 }
 
 
@@ -137,6 +139,7 @@ header {
     display: flex;
     flex: 1;
     list-style: none;
+    
 }
 
 .historias_destacadas ul li{
@@ -147,6 +150,8 @@ header {
     border-radius: 100%;
     width: 100px;
     height: 100px;
+    object-fit: cover;
+    padding: 20px;
 }
 
 .column-direction {
@@ -179,6 +184,7 @@ header {
 .post img {
     width: 350px;
     height: 310px;
+    object-fit: cover;
 }
 
 .p-1 {
@@ -192,5 +198,11 @@ header {
 .p-2 {
     text-align: center;
     color: grey;
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 100%;
+    }
 }
 

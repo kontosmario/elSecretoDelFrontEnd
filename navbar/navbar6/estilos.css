@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 5px auto;
+    padding: 0;
+}
+
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: beige;
+    
+}
+
+img{
+    width: 120px;
+}
+
+ul li, i{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    padding-top: auto;
+}

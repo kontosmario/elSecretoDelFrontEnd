@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+
+section {
+    height: 52px;
+    display: flex;
+    width: 80%;
+    border: .5px solid rgb(218, 218, 218);
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    height: 50px;
+    padding-left: 45px;
+}
+
+.iconos {
+    margin: auto;
+
+}
+
+.iconos i {
+    margin-right: 40px;
+    
+    
+}
+
+input {
+    
+    border-radius: 10px;
+    height: 40px;
+    
+}
+
+container-1{
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-right: 350px;
+}
